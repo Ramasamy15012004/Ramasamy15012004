@@ -76,8 +76,8 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 ### 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ramasamy15012004&show_icons=true&theme=default" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramasamy15012004&layout=compact" height="165"/>
 </p>
 
 ---
@@ -85,8 +85,8 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 ### 📫 Let's Connect
 
 <p align="left">
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
+<a href="mailto:ramasamy15012004@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
+<!-- <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a> -->
 </p>
 
 ---
