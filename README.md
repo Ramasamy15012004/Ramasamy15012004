@@ -85,4 +85,4 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
-<p align="center"><i>🟢 Actively looking for opportunities in Embedded Systems, Industrial IoT, and Computer Vision — let's connect!</i></p>
+<p align="center"><i>🟢 Actively looking for opportunities in Embedded Systems and Industrial IoT — let's connect!</i></p>
