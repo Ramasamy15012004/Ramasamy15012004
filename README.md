@@ -82,4 +82,7 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 
 ---
 
-<p align="center"><i>Building the systems that run the factory floor — one board, one camera, one dashboard at a time.</i></p>
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
+</p>
+<p align="center"><i>🟢 Actively looking for opportunities in Embedded Systems, Industrial IoT, and Computer Vision — let's connect!</i></p>
