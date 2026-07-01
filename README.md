@@ -73,15 +73,6 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Ramasamy15012004&show_icons=true&theme=default" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramasamy15012004&layout=compact" height="165"/>
-</p>
-
----
-
 ### 📫 Let's Connect
 
 <p align="left">
