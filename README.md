@@ -8,7 +8,7 @@ Chennai, Tamil Nadu, India
 
 ## 📋 Overview
 
-Specialized in designing and developing firmware solutions for industrial automation systems, IoT devices, and SCADA telemetry platforms. Expertise spans embedded systems architecture, real-time control systems, industrial protocols, and full-stack automation solutions. Proven track record in deploying production-grade systems for MSME and industrial operations.
+Specialized in designing and developing firmware solutions for industrial automation systems, IoT devices, and SCADA telemetry platforms. Expertise spans embedded systems architecture, real-time c[...] 
 
 ---
 
@@ -40,6 +40,13 @@ Specialized in designing and developing firmware solutions for industrial automa
 ---
 
 ## 🚀 Featured Projects
+
+> Important note about project descriptions
+>
+> Some project descriptions previously in this README were not representative of my actual contributions and overstated the scope of work. I have revised the summaries below to reflect the work I personally performed. For detailed code and documentation, please refer to the individual project repositories linked in this profile or contact me directly.
+>
+> My primary contributions across the projects listed below were focused on firmware development, IIoT telemetry and backend integration, real-time dashboards, and computer-vision inspection pipelines.
+
 
 ### **MSME Manufacturing Solution**
 Comprehensive IoT platform for small to medium enterprises focused on operational efficiency and equipment monitoring.
