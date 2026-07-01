@@ -1,237 +1,94 @@
-# 🚀 Ramasamy Thandapani | Embedded Systems & IoT Engineer
+<h1 align="center">Hi there 👋 I'm building the software layer for industrial hardware</h1>
 
-**Advanced Embedded Systems • Industrial Automation • Real-time IoT Solutions**
+<p align="center">
+Embedded systems • Machine Vision • Industrial IoT • Full-stack Dashboards
+</p>
 
-Chennai, Tamil Nadu, India | [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/Ramasamy15012004)
-
----
-
-## 🎯 Professional Summary
-
-Specialized embedded systems engineer with expertise in designing production-grade firmware for industrial automation, IoT platforms, and real-time control systems. Proficient in full-stack development combining low-level embedded C/C++, FreeRTOS, computer vision, and modern web technologies. Proven track record of architecting complex systems integrating hardware sensors, industrial protocols, and distributed cloud platforms.
-
-**Key Focus Areas:**
-- 🔧 **Firmware Architecture** - ESP32, STM32, FreeRTOS, real-time systems
-- 📊 **Industrial IoT** - Modbus TCP, SCADA, OEE monitoring, telemetry
-- 🤖 **Computer Vision** - YOLO, Anomalib, Hikrobot SDK, defect detection
-- 💻 **Full-Stack Integration** - FastAPI, React, PostgreSQL, Docker
-- ⚡ **Hardware Design** - Sensor integration, motor control, touch interfaces
+<p align="center">
+<img src="https://img.shields.io/badge/Focus-Industrial%20Automation-blue" />
+<img src="https://img.shields.io/badge/Embedded-ESP32%20%7C%20STM32-orange" />
+<img src="https://img.shields.io/badge/Vision-YOLOv8%20%7C%20PatchCore-green" />
+<img src="https://img.shields.io/badge/Backend-FastAPI-teal" />
+</p>
 
 ---
 
-## ⭐ Featured Projects (Top 4)
+### 🧠 About Me
 
-### 1. 🏭 **Industrial ERP Desktop Suite**
-**Enterprise Resource Planning System for Manufacturing**
+I design and build end-to-end systems that connect **factory-floor hardware** to **modern software** — from firmware running on microcontrollers, to computer-vision inspection pipelines, to full ERP dashboards that operators actually use. My work sits at the intersection of **embedded engineering, industrial protocols (Modbus TCP/PLC), and real-time full-stack applications**.
 
-[![Repository](https://img.shields.io/badge/GitHub-Industrial--ERP--desktop--suite-blue?logo=github)](https://github.com/Ramasamy15012004/Industrial-ERP-desktop-suite)
-
-A production-ready, modular containerized ERP system designed for modern manufacturing operations with complete supply chain visibility.
-
-**🎯 Impact:** End-to-end manufacturing operations management  
-**💡 Tech Stack:**
-- **Frontend:** React + Vite (modern SPA with real-time updates)
-- **Backend:** FastAPI + WebSockets (async, high-throughput)
-- **Desktop:** Tauri (lightweight native apps)
-- **Infrastructure:** Docker + PostgreSQL (containerized deployment)
-
-**✨ Key Features:**
-- ✅ Warehouse logistics & inventory management
-- ✅ Supply chain tracking & optimization
-- ✅ Employee time tracking & scheduling
-- ✅ Production control & scheduling
-- ✅ Dynamic Docker container orchestration
-- ✅ Real-time multi-user dashboard with role-based access
-
-**🔍 Technical Highlights:**
-- Microservices architecture with Docker Compose
-- JWT-based authentication & role management
-- Real-time WebSocket communication
-- PostgreSQL transactions for data integrity
-- Containerized local database for portability
+- 🔭 Currently working on real-time quality control systems using machine vision (YOLOv8, PatchCore/Anomalib)
+- ⚙️ Comfortable across the stack: C/C++ firmware → Python/FastAPI backends → React/Vue dashboards
+- 🏭 Domain focus: Industrial IoT, PLC/Modbus integration, OEE monitoring, and accessible embedded systems
+- 🌱 Interested in edge AI, anomaly detection, and human-centered industrial UX
 
 ---
 
-### 2. 🔬 **Machine Vision QC with Anomalib**
-**Advanced Industrial Defect Detection & Quality Control**
+### 🛠️ Featured Projects
 
-[![Repository](https://img.shields.io/badge/GitHub-machine--vision--qc--anomalib-blue?logo=github)](https://github.com/Ramasamy15012004/machine--vision-qc-anomalib)
-
-Enterprise-grade quality control platform combining traditional CV and deep learning anomaly detection for zero-defect manufacturing.
-
-**🎯 Impact:** Real-time defect detection at industrial production speed  
-**💡 Tech Stack:**
-- **Hardware Integration:** Hikrobot MVS SDK (low-level camera control)
-- **Computer Vision:** OpenCV + PyTorch + Anomalib
-- **Backend:** Python + FastAPI (hardware-triggered async pipeline)
-- **Frontend:** React (Vite) + live streaming dashboard
-
-**✨ Key Features:**
-- ✅ Hardware-triggered frame acquisition (zero latency)
-- ✅ Template matching for alignment & ROI detection
-- ✅ PatchCore anomaly segmentation (PyTorch backend)
-- ✅ Real-time defect heatmaps & statistical analysis
-- ✅ Confidence scoring & automated rejection
-- ✅ Historical trend analytics & reporting
-
-**🔍 Technical Highlights:**
-- Low-level Hikrobot SDK for frame-perfect synchronization
-- Anomalib framework for unsupervised anomaly detection
-- Hardware triggers eliminate software timing overhead
-- WebSocket streaming for live visualization
-- Optimized inference pipeline (50ms latency)
+| Project | Type | What it does | Stack |
+|---|---|---|---|
+| [**Edge-yolo-hikvision-inspector**](.) | Vision / QC | Real-time part inspection using Hikrobot cameras + YOLOv8 defect detection, with live MJPEG streaming and detection history | Python · FastAPI · YOLOv8 · OpenCV · PyTorch · React |
+| [**machine-vision-qc-anomalib**](.) | ML / Vision | Hardware-triggered anomaly segmentation using PatchCore, with configurable ROI/exposure and a live React dashboard | Python · Anomalib · PyTorch · FastAPI · React |
+| [**Industrial-ERP-desktop-suite**](.) | Full-stack ERP | Modular, containerized ERP for warehouse, supply chain, and production management, packaged as a Tauri desktop app | React · Tauri · FastAPI · PostgreSQL · Docker |
+| [**Python-PLC-Logger**](.) | Data Logging | Real-time dashboard and data logger for Modbus TCP PLCs (Siemens/Delta/Mitsubishi) with 100+ API routes and CSV logging | Python · FastAPI · pymodbus |
+| [**OEE_Public**](.) / **OEE_Private** | Industrial IoT | Overall Equipment Effectiveness monitoring via ESP32 edge logging over Modbus TCP | C · Python · FastAPI · SQLite · React |
+| [**ESP-32_PLC-controller-data-logger**](.) | Embedded GUI | ESP32-S3 firmware driving a tear-free LVGL touchscreen dashboard for a PLC controller | C · ESP-IDF · LVGL |
+| [**ESP32-LPG-Vending-Machine**](.) | IoT / Automation | Multi-sensor safety-validated LPG vending machine firmware (load cell, gas leak, smoke, motion) | C++ · ESP32 · Modbus TCP |
+| [**MSME_Project**](.) | Accessibility | Fully offline STM32 lift control for disabled users via eye-blink gestures and voice recognition | STM32 · Embedded C |
+| [**Pre-Final-Year-Project**](.) | Robotics | Arduino-based autonomous obstacle-avoiding robot | C++ · Arduino |
 
 ---
 
-### 3. ⚙️ **ESP32-S3 PLC Controller & Data Logger**
-**High-Performance Embedded Control System with GUI**
+### 🧰 Tech Stack
 
-[![Repository](https://img.shields.io/badge/GitHub-ESP--32__PLC--controller--data--logger-blue?logo=github)](https://github.com/Ramasamy15012004/ESP-32_PLC-controller-data-logger)
+**Embedded / Firmware**
+![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?logo=cplusplus&logoColor=white)
+![ESP-IDF](https://img.shields.io/badge/-ESP--IDF-E7352C?logo=espressif&logoColor=white)
+![STM32](https://img.shields.io/badge/-STM32-03234B?logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white)
 
-Cutting-edge industrial-grade data acquisition & control system with advanced GUI featuring DMA optimizations and tear-free display rendering.
+**Backend**
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
-**🎯 Impact:** Dual-core real-time control with responsive touch interface  
-**💡 Tech Stack:**
-- **Microcontroller:** ESP32-S3 (dual-core @ 240MHz)
-- **RTOS:** FreeRTOS with dual-core task scheduling
-- **Display:** LVGL v8.x GUI framework
-- **Hardware:** ST7701S (display controller) + GT911 (capacitive touch)
-- **Protocols:** Modbus TCP, I2C, SPI
+**Vision / ML**
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/-YOLOv8-111F68)
 
-**✨ Key Features:**
-- ✅ Modular thread-safe GUI architecture
-- ✅ 4.3" Waveshare RGB touchscreen (480×800 IPS)
-- ✅ DMA double-buffering for tear-free rendering
-- ✅ VSYNC synchronization at 60 FPS
-- ✅ Real-time parameter monitoring & logging
-- ✅ PLC communication stack (Modbus TCP slave)
-- ✅ Low-power sleep modes with wake-up triggers
+**Frontend**
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
+![Tauri](https://img.shields.io/badge/-Tauri-FFC131?logo=tauri&logoColor=black)
 
-**🔍 Technical Highlights:**
-- Dual-core FreeRTOS with priority inversion prevention
-- DMA controller for zero-CPU display updates
-- Capacitive touch response <50ms
-- PSram usage for framebuffer (16MB available)
-- OTA firmware updates over Wi-Fi
-- 99.9% uptime in field deployments
-
----
-
-### 4. 📷 **Edge YOLO Hikvision Inspector**
-**Real-time Industrial Part Inspection with AI**
-
-[![Repository](https://img.shields.io/badge/GitHub-Edge--yolo--hikvision--inspector-blue?logo=github)](https://github.com/Ramasamy15012004/Edge-yolo-hikvision-inspector)
-
-Production-ready computer vision inspection system integrating Hikvision cameras with YOLOv8 for automated quality control at scale.
-
-**🎯 Impact:** Automated defect detection with 95%+ accuracy  
-**💡 Tech Stack:**
-- **Camera Integration:** Hikrobot Machine Vision SDK
-- **Deep Learning:** YOLOv8 (object detection)
-- **Backend:** Python + FastAPI + asyncio
-- **Frontend:** React (Vite) with real-time visualization
-- **Processing:** OpenCV (preprocessing & post-processing)
-
-**✨ Key Features:**
-- ✅ Multi-camera support & load balancing
-- ✅ YOLOv8 inference pipeline (25 FPS @ 640×480)
-- ✅ Real-time object detection & classification
-- ✅ Confidence scoring & bounding box display
-- ✅ Live MJPEG streaming dashboard
-- ✅ Inspection logs with historical tracking
-- ✅ RESTful API for integration with MES systems
-
-**🔍 Technical Highlights:**
-- Optimized YOLO model for industrial parts detection
-- Async frame processing prevents bottlenecks
-- GPU acceleration support (CUDA/TensorRT)
-- Multi-threaded camera polling
-- WebSocket live feed broadcast to unlimited clients
-- Cloud-ready with horizontal scaling
+**Industrial Protocols**
+![Modbus TCP](https://img.shields.io/badge/-Modbus%20TCP-333333)
+![PLC](https://img.shields.io/badge/-PLC%20Integration-333333)
 
 ---
 
-## 💪 Core Competencies
+### 📊 GitHub Stats
 
-### 🔧 Embedded Systems & Microcontroller Development
-- **Languages:** Embedded C/C++, Python, JavaScript
-- **Platforms:** ESP32 (WiFi+BT), ESP32-S3, STM32 (Cortex-M7), Arduino
-- **RTOS:** FreeRTOS with dual-core, multi-priority scheduling
-- **GUI Frameworks:** LVGL 8.x, custom display drivers
-- **Protocols:** I2C, SPI, UART, CAN, Modbus TCP/RTU
-- **Low-power Design:** Sleep modes, wake-up timers, ultra-low power operation
-
-### 🏭 Industrial Automation & Protocols
-- **PLC Integration:** Siemens S7, Delta, Mitsubishi (Modbus TCP)
-- **SCADA Architecture:** Real-time data acquisition, historian logging
-- **IoT Solutions:** Sensor networks, edge computing, telemetry
-- **OEE Tracking:** Performance metrics, downtime analysis, production analytics
-- **Safety Systems:** Multi-sensor validation, hardwired safety loops
-
-### 💻 Full-Stack Development
-- **Backend:** FastAPI, asyncio, WebSockets, RESTful APIs, JWT auth
-- **Frontend:** React, Vite, Chart.js, D3.js, real-time dashboards
-- **Database:** PostgreSQL (relational), SQLite (embedded), CSV logging
-- **Desktop:** Tauri, Electron, native system integration
-- **DevOps:** Docker Compose, containerization, CI/CD
-
-### 🤖 Advanced Analytics & Computer Vision
-- **Deep Learning:** YOLOv8, PyTorch, TensorFlow
-- **Anomaly Detection:** Anomalib, PatchCore, unsupervised learning
-- **Image Processing:** OpenCV, template matching, morphological operations
-- **Real-time Systems:** Hardware triggers, frame synchronization
-- **3D Vision:** Point cloud processing, depth estimation
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact" height="165"/>
+</p>
 
 ---
 
-## 📊 Technical Stack
+### 📫 Let's Connect
 
-| Category | Technologies |
-|----------|--------------|
-| **Embedded C/C++** | FreeRTOS, LVGL, interrupts, DMA, PSram management |
-| **Protocols** | Modbus TCP/RTU, I2C, SPI, CAN, UART, Ethernet |
-| **Backend** | Python, FastAPI, asyncio, WebSockets, uvicorn |
-| **Frontend** | React, Vite, Chart.js, D3.js, Material-UI |
-| **Desktop** | Tauri, Electron, system integration |
-| **Database** | PostgreSQL, SQLite, CSV, time-series data |
-| **ML/CV** | YOLO, OpenCV, PyTorch, Anomalib, Hikrobot SDK |
-| **DevOps** | Docker, Docker Compose, git, GitHub Actions |
-| **Hardware** | HX711 load cells, stepper motors, ultrasonic sensors, touchscreens |
+<p align="left">
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
+</p>
 
 ---
 
-## 🎓 Education
-
-**Bachelor of Engineering - Electronics and Communication Engineering (ECE)**  
-Ramco Institute of Technology | Anna University, Chennai
-
----
-
-## 📈 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ramasamy15012004&show_icons=true&theme=radical)
-
----
-
-## 🔗 Connect With Me
-
-| Platform | Link |
-|----------|------|
-| **GitHub** | [github.com/Ramasamy15012004](https://github.com/Ramasamy15012004) |
-| **Email** | [Add your email] |
-| **LinkedIn** | [Add your LinkedIn] |
-
----
-
-<div align="center">
-
-### 🌟 Open to Collaborations & Opportunities
-
-Interested in industrial automation, embedded systems design, or real-time IoT solutions?  
-Let's build something amazing together!
-
-**[View All Projects](https://github.com/Ramasamy15012004?tab=repositories)** | **[Get in Touch](#connect-with-me)**
-
-*Crafting production-grade solutions at the intersection of embedded systems and industrial intelligence.*
-
-</div>
+<p align="center"><i>Building the systems that run the factory floor — one board, one camera, one dashboard at a time.</i></p>
