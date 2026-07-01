@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hi, I'm RAM 👋
 
-<!--
-**Ramasamy15012004/Ramasamy15012004** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Embedded Systems & IoT Engineer
 
-Here are some ideas to get you started:
+I build firmware and connected systems for industrial automation — from microcontroller-level control loops to the dashboards that visualize what they're doing.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🔧 What I work with
+
+- **Embedded:** Embedded C on ESP32 / STM32, FreeRTOS (dual-core concurrency, ISR-driven control)
+- **Industrial Protocols:** Modbus TCP (Siemens, Delta, Mitsubishi PLCs), I2C, SPI
+- **Backend:** Python, FastAPI, WebSockets, asyncio
+- **Data:** PostgreSQL, Docker
+- **Frontend:** React / Vite, Chart.js for real-time HMI dashboards
+- **Computer Vision:** YOLO, OpenCV, Anomalib — for industrial quality inspection
+
+### 🚀 What I've been building
+
+- **SCADA telemetry & dashboard system** — multi-PLC Modbus TCP data acquisition with a FastAPI + WebSocket backend for real-time visualization
+- **STM32-based accessible lift control system** — embedded control firmware focused on accessibility
+- **Industrial vision quality control** — defect detection pipelines combining anomaly detection and object detection models
+
+### 🎓 Background
+
+ECE graduate, Ramco Institute of Technology (Anna University)
+
+### 📍 Based in
+
+Chennai, Tamil Nadu, India
+
+---
+
+*Always tinkering with something between a microcontroller and the cloud.*
