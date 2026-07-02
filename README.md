@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Ram 👋</h1>
-<p align="center">Firmware & Automation Engineer — I build the software that runs industrial hardware</p>
+<p align="center">Embedded System & IOT Engineer — I build the software that runs industrial hardware</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Focus-Industrial%20Automation-blue" />
