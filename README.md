@@ -1,8 +1,5 @@
-<h1 align="center">Hi there 👋 I'm building the software layer for industrial hardware</h1>
-
-<p align="center">
-Embedded systems • Machine Vision • Industrial IoT • Full-stack Dashboards
-</p>
+<h1 align="center">Hi, I'm Ram 👋</h1>
+<p align="center">Firmware & Automation Engineer — I build the software that runs industrial hardware</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Focus-Industrial%20Automation-blue" />
@@ -13,34 +10,33 @@ Embedded systems • Machine Vision • Industrial IoT • Full-stack Dashboards
 
 ---
 
-### 🧠 About Me
+### About Me
 
-I design and build end-to-end systems that connect **factory-floor hardware** to **modern software** — from firmware running on microcontrollers, to computer-vision inspection pipelines, to full ERP dashboards that operators actually use. My work sits at the intersection of **embedded engineering, industrial protocols (Modbus TCP/PLC), and real-time full-stack applications**.
+I'm a firmware and automation engineer working out of Chennai, about a year into building systems for the factory floor — everything from microcontroller firmware to computer-vision inspection to the dashboards operators actually use day to day.
 
-- 🔭 Currently working on real-time quality control systems using machine vision (YOLOv8, PatchCore/Anomalib)
-- ⚙️ Comfortable across the stack: C/C++ firmware → Python/FastAPI backends → React/Vue dashboards
-- 🏭 Domain focus: Industrial IoT, PLC/Modbus integration, OEE monitoring, and accessible embedded systems
-- 🌱 Interested in edge AI, anomaly detection, and human-centered industrial UX
+Most of what I do sits at the point where hardware meets software: getting PLCs, sensors, and cameras talking to something people can monitor and control in real time. Lately that's meant building quality-control systems around YOLOv8 and PatchCore/Anomalib for defect detection, plus a fair amount of Modbus TCP work integrating Siemens, Delta, and Mitsubishi PLCs.
+
+I move across the stack pretty freely — C/C++ on ESP32 and STM32, Python/FastAPI on the backend, React or Vue on the frontend depending on the project. I'm also spending time on edge AI, anomaly detection, and OEE monitoring, and I care about making embedded systems that are actually usable by people who aren't engineers.
 
 ---
 
-### 🛠️ Featured Projects
+### Featured Projects
 
 | Project | Type | What it does | Stack |
 |---|---|---|---|
-| [**Edge-yolo-hikvision-inspector**](.) | Vision / QC | Real-time part inspection using Hikrobot cameras + YOLOv8 defect detection, with live MJPEG streaming and detection history | Python · FastAPI · YOLOv8 · OpenCV · PyTorch · React |
-| [**machine-vision-qc-anomalib**](.) | ML / Vision | Hardware-triggered anomaly segmentation using PatchCore, with configurable ROI/exposure and a live React dashboard | Python · Anomalib · PyTorch · FastAPI · React |
-| [**Industrial-ERP-desktop-suite**](.) | Full-stack ERP | Modular, containerized ERP for warehouse, supply chain, and production management, packaged as a Tauri desktop app | React · Tauri · FastAPI · PostgreSQL · Docker |
-| [**Python-PLC-Logger**](.) | Data Logging | Real-time dashboard and data logger for Modbus TCP PLCs (Siemens/Delta/Mitsubishi) with 100+ API routes and CSV logging | Python · FastAPI · pymodbus |
-| [**OEE_Public**](.) / **OEE_Private** | Industrial IoT | Overall Equipment Effectiveness monitoring via ESP32 edge logging over Modbus TCP | C · Python · FastAPI · SQLite · React |
-| [**ESP-32_PLC-controller-data-logger**](.) | Embedded GUI | ESP32-S3 firmware driving a tear-free LVGL touchscreen dashboard for a PLC controller | C · ESP-IDF · LVGL |
-| [**ESP32-LPG-Vending-Machine**](.) | IoT / Automation | Multi-sensor safety-validated LPG vending machine firmware (load cell, gas leak, smoke, motion) | C++ · ESP32 · Modbus TCP |
-| [**MSME_Project**](.) | Accessibility | Fully offline STM32 lift control for disabled users via eye-blink gestures and voice recognition | STM32 · Embedded C |
-| [**Pre-Final-Year-Project**](.) | Robotics | Arduino-based autonomous obstacle-avoiding robot | C++ · Arduino |
+| [**Edge-yolo-hikvision-inspector**](.) | Vision / QC | Real-time part inspection using a Hikrobot camera and YOLOv8 for defect detection, with a live MJPEG stream and detection history | Python · FastAPI · YOLOv8 · OpenCV · PyTorch · React |
+| [**machine-vision-qc-anomalib**](.) | ML / Vision | Hardware-triggered anomaly segmentation with PatchCore — configurable ROI/exposure, plus a React dashboard to watch it run | Python · Anomalib · PyTorch · FastAPI · React |
+| [**Industrial-ERP-desktop-suite**](.) | Full-stack ERP | A modular, containerized ERP for warehouse, supply chain, and production management, packaged as a Tauri desktop app | React · Tauri · FastAPI · PostgreSQL · Docker |
+| [**Python-PLC-Logger**](.) | Data Logging | Real-time dashboard and logger for Modbus TCP PLCs (Siemens/Delta/Mitsubishi) — 100+ API routes, CSV logging | Python · FastAPI · pymodbus |
+| [**OEE_Public**](.) / **OEE_Private** | Industrial IoT | OEE monitoring over Modbus TCP, with ESP32s handling the edge logging | C · Python · FastAPI · SQLite · React |
+| [**ESP-32_PLC-controller-data-logger**](.) | Embedded GUI | ESP32-S3 firmware driving a tear-free LVGL touchscreen for a PLC controller | C · ESP-IDF · LVGL |
+| [**ESP32-LPG-Vending-Machine**](.) | IoT / Automation | LPG vending machine firmware with load cell, gas leak, smoke, and motion sensing built in for safety | C++ · ESP32 · Modbus TCP |
+| [**MSME_Project**](.) | Accessibility | Fully offline STM32 lift control for disabled users, driven by eye-blink gestures and voice recognition | STM32 · Embedded C |
+| [**Pre-Final-Year-Project**](.) | Robotics | Arduino-based robot that avoids obstacles on its own | C++ · Arduino |
 
 ---
 
-### 🧰 Tech Stack
+### Tech Stack
 
 **Embedded / Firmware**
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=white)
@@ -73,7 +69,7 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 
 ---
 
-### 📫 Let's Connect
+### Get in Touch
 
 <p align="left">
 <a href="mailto:ramasamy15012004@gmail.com"><img src="https://img.shields.io/badge/Email-ramasamy15012004%40gmail.com-D14836?logo=gmail&logoColor=white" /></a>
@@ -85,4 +81,4 @@ I design and build end-to-end systems that connect **factory-floor hardware** to
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
-<p align="center"><i>🟢 Actively looking for opportunities in Embedded Systems and Industrial IoT — let's connect!</i></p>
+<p align="center">Open to opportunities in embedded systems and industrial IoT — feel free to reach out.</p>
