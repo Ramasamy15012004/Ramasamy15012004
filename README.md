@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Ram 👋</h1>
-<p align="center">Embedded System & IOT Engineer — I build the software that runs industrial hardware</p>
+<p align="center">Embedded System & IIOT Engineer — I build the software that runs industrial hardware</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Focus-Industrial%20Automation-blue" />
@@ -12,7 +12,7 @@
 
 ### About Me
 
-I'm a firmware and automation engineer working out of Chennai, about a year into building systems for the factory floor — everything from microcontroller firmware to computer-vision inspection to the dashboards operators actually use day to day.
+I'm a Embedded System and IIOT engineer working out of Chennai, about a year into building systems for the factory floor — everything from microcontroller firmware to computer-vision inspection to the dashboards operators actually use day to day.
 
 Most of what I do sits at the point where hardware meets software: getting PLCs, sensors, and cameras talking to something people can monitor and control in real time. Lately that's meant building quality-control systems around YOLOv8 and PatchCore/Anomalib for defect detection, plus a fair amount of Modbus TCP work integrating Siemens, Delta, and Mitsubishi PLCs.
 
